@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Week 10 Question 5 - Mean and Sum of an Array</title>
+    <title>Week 10 Question 6 - Grocery List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>MEAN AND SUM OF PRESET ARRAY</h1>
-    <button onclick="play()">Start the function</button>
-    <p id="results"><sapn id="bold">Result:</sapn><br><br></p>
+    <h1>ADD AND CHANGE BULLETS FROM A GRCERY LIST</h1>
+    <div id="results">
+        <sapn id="bold">Grocery list:</sapn>
+        <ul id="list">
+            <li><div class="list"><div id="list1">Beans</div><div class="rigth"><button class="button-2" onclick="change('list1')">Change item</button></div></div></li>
+            <li><div class="list"><div id="list2">Carrots</div><div class="rigth"><button class="button-2" onclick="change('list2')">Change item</button></div></div></li>
+            <li><div class="list"><div id="list3">Potatoes</div><div class="rigth"><button class="button-2" onclick="change('list')">Change item</button></div></div></li>
+            <li><div class="list"><div id="list4">Milk</div><div class="rigth"><button class="button-2" onclick="change('list4')">Change item</button></div></div></li>
+            <li><div class="list"><div id="list5">Bananas</div><div class="rigth"><button class="button-2" onclick="change('list5')">Change item</button></div></div></li>
+        </ul>
+        <button class="button-2" onclick="add()">Add a bullet point</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

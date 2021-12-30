@@ -1,25 +1,44 @@
 body{
-    background-color: mediumpurple;
+    background-color: mediumseagreen;
     text-align: center;
 }
 h1{
     font-size: 300%;
     margin: 3%;
 }
-p{
+#results{
     font-size: 250%;
     margin: 3% 20% 5% 20%;
     border-style: solid;
     border-width: 3px;
     border-radius: 15px;
     background-color: #e9e9ed;
-    padding: 2% 2% 2% 2%;
+    padding: 3% 2% 4% 2%;
 }
 #bold{
     font-size: 150%;
     font-weight: bold;
 }
-button{
+ul{
+    padding: 5% 20% 0% 20%;
+    text-align: left;
+}
+li{
+    margin: 1.5% 0% 1.5% 0%;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+.rigth{
+    display: grid;
+}
+.button-2{
+    transform: scale(1.5);
+    align-self: center;
+    font-size: 35%;
+}
+.button-1{
     font-size: 120%;
     transform: scale(1.6);
 }
